@@ -69,7 +69,8 @@ management:
 
 
 token:
-  expiration_time: 86400000
+  access_token_expiration_time: 86400 # 하루
+  refresh_token_expiration_time: 2592000 # 한달
   secret: abcdefghijklmnopqrstuvwxyz01234567890
 
 gateway:
